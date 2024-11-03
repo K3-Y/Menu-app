@@ -40,20 +40,18 @@ export default function Top() {
           {[
             {
               name: "Margherita Pizza",
-              image: "https://cdn.sbfoods.co.jp/recipes/06754_l.jpg",
+              image: "/Popular_image1.jpg",
               description:
                 "Classic margherita pizza with fresh basil and mozzarella.",
             },
             {
               name: "Spaghetti Carbonara",
-              image:
-                "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRejoAT8SMJYU1zkLxBZNn8gJukhSWl9fHDUA&s",
+              image: "/Popular_image2.jpg",
               description: "Creamy spaghetti carbonara with pancetta.",
             },
             {
               name: "Iced Latte",
-              image:
-                "https://www.t-fal.co.jp/recipe/common/recipe_images/ca-coffeemakers-quicrema-iced-cafelatte-2405/main.jpg",
+              image: "/Popular_image3.jpg",
               description: "Refreshing iced latte made with espresso.",
             },
           ].map((item, index) => (
