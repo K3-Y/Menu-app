@@ -27,7 +27,7 @@ export default function Top() {
   };
 
   return (
-    <div className="relative z-10 p-4 min-h-screen bg-gradient-to-br from-orange-300 via-yellow-300 to-red-300">
+    <div className="font-noto relative z-10 p-4 min-h-screen bg-gradient-to-br from-orange-300 via-yellow-300 to-red-300">
       {/* 言語切り替えボタン */}
       <div className="relative flex justify-end p-4">
         <select

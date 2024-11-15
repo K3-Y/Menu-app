@@ -118,7 +118,7 @@ const PastaMenu: React.FC<PastaMenuProps> = ({ language }) => {
   ];
 
   return (
-    <div className="mt-4 grid grid-cols-2 gap-4">
+    <div className="font-noto mt-4 grid grid-cols-2 gap-4">
       {menuItems.map((item) => (
         <div
           key={item.id}
